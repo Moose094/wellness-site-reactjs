@@ -1,0 +1,112 @@
+.wellness__header{
+    display: flex;
+}
+
+.wellness__header-content{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    flex-direction: column;
+    margin-right: 5rem;
+}
+.wellness__header-content h1{
+    font-weight: 800;
+    font-size: 62px;
+    line-height: 75px;
+    letter-spacing: -0.04em;
+    color: navy;
+}
+.wellness__header-content p {
+    font-weight: normal;
+    font-style: normal;
+    font-size: 20px;
+    line-height: 27px;
+    color: navy;
+    margin-top: 1.5rem;
+}
+.wellness__input{
+    width: 100%;
+    margin: 2rem 0 1rem;
+    display: flex;
+    flex-direction: row;
+}
+.wellness__input input{
+    flex:2;
+    width: 100%;
+    min-height: 50px;
+    border-radius: 5px 0px 0px 5px;
+    border: 2px solid navy;
+    padding: 0 1rem;
+    outline: none;
+    font-size: 20px;
+    line-height: 27px;
+
+}
+.wellness__input button {
+    flex: 0.6;
+    width: 100%;
+    cursor: pointer;
+}
+.header__image{
+    flex:1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.header__image img{
+    width: 100%;
+    height: 100%;
+}
+
+@media screen and (max-width: 1050px) {
+    .wellness__header{
+        flex-direction: column;
+    }
+
+    .wellness__header-content{
+        margin: 0 0 3 rem;
+    }
+    
+}
+
+@media screen and (max-width: 650px) {
+    .wellness__header h1 {
+        font-size: 48px;
+        line-height: 60px;
+    }
+
+        .wellness__header p {
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+        .wellness__input input,
+        .wellness__input button{
+            font-size: 16px;
+            line-height: 24px;
+        }
+
+    
+}
+
+@media screen and (max-width: 490px) {
+    .wellness__header h1 {
+        font-size: 36px;
+        line-height: 48px;
+    }
+
+    .wellness__header p {
+        font-size: 14px;
+        line-height: 24px;
+    }
+
+    .wellness__input input,
+    .wellness__input button {
+        font-size: 12px;
+        line-height: 16px;
+    }
+
+
+}

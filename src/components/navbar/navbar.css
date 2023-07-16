@@ -1,0 +1,65 @@
+.wellness__navbar{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 2rem 6rem;
+}
+.wellness__navbar-links{
+    flex:1;
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+.wellness__navbar-links_logo{
+    margin-right: 2rem;
+}
+.wellness__navbar-links_logo img{
+    width: 100px;
+    height: 75px;
+}
+.wellness__navbarLinks-container{
+    display: flex;
+    flex-direction: row;
+}
+.wellness__navbar-sign{
+    display: flex;
+    justify-content: flex-end;
+    align-items: center;
+}
+
+.wellness__navbarLinks-container p,
+.wellness__navbar-sign p {
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    text-transform: capitalize;
+    margin: 0 1rem;
+    cursor: pointer;
+}
+
+button{
+    border-radius: 30px;
+    width: 80px;
+}
+
+@media screen and (max-width: 1050px){
+    .wellness__navbarLinks-container {
+            display: none;
+            
+        }
+}
+
+@media screen and (max-width: 700px) {
+    .wellness__navbar {
+        padding: 2rem 4rem;
+    }
+}
+@media screen and (max-width: 550px) {
+    .wellness__navbar{
+        padding: 2rem;
+    }
+        .wellness__navbar-sign {
+            display: none;
+            
+        }
+}

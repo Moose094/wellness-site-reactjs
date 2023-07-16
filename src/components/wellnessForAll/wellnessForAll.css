@@ -1,0 +1,22 @@
+.wellnessFa__head{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin: 4rem 0 2rem;
+}
+.wellnessFa__head h1 {
+
+    font-size: 34px;
+    font-weight: 800;
+    max-width: 510px;
+    line-height: 45px;
+    color: navy;
+
+   
+}
+wellnessFa__head p {
+
+    color: navy;
+
+}

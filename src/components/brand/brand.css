@@ -1,0 +1,19 @@
+.wellness__brand{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.wellness__brand div{
+    flex: 1;
+    margin: 1rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.brandImg{
+    height: 300px;
+    width: 300px;
+    margin: 1rem;
+}
